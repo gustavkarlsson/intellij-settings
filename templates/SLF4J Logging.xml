@@ -1,0 +1,81 @@
+<templateSet group="SLF4J Logging">
+  <template name="debug" value="$LOG$.debug(&quot;$SELECTION$$END$&quot;);" description="Logs a debug message" toReformat="true" toShortenFQNames="true">
+    <variable name="LOG" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="log" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="error" value="$LOG$.error(&quot;$SELECTION$$END$&quot;);" description="Logs a error message" toReformat="true" toShortenFQNames="true">
+    <variable name="LOG" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="log" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="trace" value="$LOG$.trace(&quot;$SELECTION$$END$&quot;);" description="Logs a trace message" toReformat="true" toShortenFQNames="true">
+    <variable name="LOG" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="log" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="info" value="$LOG$.info(&quot;$SELECTION$$END$&quot;);" description="Logs an info message" toReformat="true" toShortenFQNames="true">
+    <variable name="LOG" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="log" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tracemethod" value="$LOG$.trace(&quot;Called $METHOD_NAME$&quot;);" description="Logs a trace message of the current method" toReformat="true" toShortenFQNames="true">
+    <variable name="LOG" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="log" alwaysStopAt="false" />
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="logger" value="private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$.class);" description="Adds a SLF4J Logger" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="warn" value="$LOG$.warn(&quot;$SELECTION$$END$&quot;);" description="Logs a warn message" toReformat="true" toShortenFQNames="true">
+    <variable name="LOG" expression="variableOfType(&quot;org.slf4j.Logger&quot;)" defaultValue="log" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
