@@ -1,4 +1,8 @@
-<scheme name="Darcula ligatures" version="142" parent_scheme="Darcula">
+<scheme name="Darcula ligatures and semantic highlighting" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="modified">2016-11-25T21:47:46</property>
+    <property name="rainbow Default language">true</property>
+  </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
