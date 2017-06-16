@@ -1,5 +1,13 @@
 <application>
-  <component name="VcsApplicationSettings">
-    <option name="SHOW_WHITESPACES_IN_LST" value="true" />
+  <component name="GitRememberedInputs">
+    <option name="visitedUrls">
+      <list>
+        <UrlAndUserName>
+          <option name="url" value="$USER_HOME$/Temp/yawls" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+      </list>
+    </option>
+    <option name="cloneParentDir" value="$USER_HOME$/Development" />
   </component>
 </application>
