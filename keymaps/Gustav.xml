@@ -1,4 +1,7 @@
-<keymap version="1" name="Default copy" parent="$default">
+<keymap version="1" name="Gustav" parent="$default">
+  <action id="CopyAsRichText">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl c" />
+  </action>
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="ctrl #10000a7" />
   </action>
