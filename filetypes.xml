@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="docker-compose-yml" type="PLAIN_TEXT" />
       <mapping ext="appenderfactory" type="PLAIN_TEXT" />
+      <mapping ext="mockmaker" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
