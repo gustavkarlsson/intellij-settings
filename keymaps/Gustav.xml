@@ -1,4 +1,7 @@
 <keymap version="1" name="Gustav" parent="$default">
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="ctrl #10000a7" />
   </action>
