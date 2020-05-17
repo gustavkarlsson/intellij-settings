@@ -1,0 +1,9 @@
+<application>
+  <component name="ProtobufSettings">
+    <option name="includePaths">
+      <list>
+        <option value="$USER_HOME$/Development/snappier/common-protobuf/src/main/proto" />
+      </list>
+    </option>
+  </component>
+</application>
