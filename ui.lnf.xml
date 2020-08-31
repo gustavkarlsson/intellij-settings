@@ -1,9 +1,9 @@
 <application>
   <component name="UISettings">
-    <option name="ALLOW_MERGE_BUTTONS" value="false" />
     <option name="compactTreeIndents" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="20" />
     <option name="EDITOR_TAB_PLACEMENT" value="0" />
+    <option name="MAX_LOOKUP_WIDTH2" value="1116" />
     <option name="WIDESCREEN_SUPPORT" value="true" />
   </component>
 </application>
