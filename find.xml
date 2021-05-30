@@ -13,8 +13,8 @@
     <mask>*.jsp</mask>
     <mask>*.properties</mask>
     <mask>*.java</mask>
-    <mask>*.kt</mask>
     <mask>*.kt*</mask>
     <mask>*.kts</mask>
+    <mask>*.kt</mask>
   </component>
 </application>
